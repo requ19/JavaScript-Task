@@ -45,7 +45,58 @@ let result2 = c3 + d3;
 console.log(result2);
 
 
+//Не запуская код, определите, что выведется на экран:
 
+let ba = 5 + 5 * 3;
+alert(ba);// ответ 20
+
+let ab = 5 + 5 * 3 + 3;
+alert(ab);//ответ 23
+
+let ac = 8 / 2 + 2;
+alert(ac); //ответ 6
+
+let ad = 8 + 2 / 2;
+alert(ad); // ответ 9
+
+let ae = 8 / 2 * 2;
+alert(ae); //ответ 8
+
+let af = 8 * 4 / 2 / 2;
+alert(af);// ответ 8
+
+let ag = (2 + 3) * (2 + 3);
+alert(ag);// ответ 25
+
+let ah = (2 + 3) * 2 + 3;
+alert(ah);//ответ 25
+
+let ak = 2 * (2 + 4 * (3 + 1));
+alert(ak);//ответ 36
+
+let al = 2 * 8 / 4;
+alert(al);//ответ 4
+
+let am = (2 * 8) / 4;
+alert(am);//ответ 4
+
+let an = (2 * 8) / 4;
+alert(an);//ответ 4
+
+// N10
+
+let floatA = 1.5;
+let floatB = 0.75;
+let res = floatA + floatB;
+
+console.log(res);
+
+// N11
+let negaA = -100;
+console.log(negaA);
+
+let negaB = -500;
+console.log(-negaB)
 
 
 
