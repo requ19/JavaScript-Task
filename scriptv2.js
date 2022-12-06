@@ -1,3 +1,6 @@
+"use strict"
+
+
 let i = 1000;
 
 while (i > 0){
