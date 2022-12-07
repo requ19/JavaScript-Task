@@ -131,6 +131,148 @@ alert(a);
 const name = 'Requ';
 console.log(`Меня зовут ${name} я аватар, и когда мир нуждался во мне я пропал`);
 
+// 15
+let str = '!!!';
+console.log(str);
+
+let java = 'Java';
+let script = 'Script';
+console.log(java+script);
+
+let hel = 'hello ';
+let world = 'world';
+console.log(hel+world);
+
+// 16
+let hel2 = 'hello '.length;
+let world2 = 'world'.length;
+console.log(hel2+world2);
+
+// 17
+let str1 = 'xxx';
+let str2 = 'yyy';
+let txt  = `aaa ${str1} bbb ${str2} ccc`;
+console.log(txt);
+
+let str4 = `a
+            b
+            c`;
+
+// 18
+
+let abs;
+
+abs = 13;
+
+console.log(abs);
+
+let abc;
+
+abc = null;
+
+console.log(abc);
+
+let abd;
+
+abd = true;
+
+console.log(abd);
+
+let abi;
+
+abi = false;
+
+console.log(abi);
+
+let abx = 'soul';
+let axb = 'society';
+console.log(abx*axb);
+
+console.log(10 / 0);
+console.log(-10 / 0);
+
+// 19
+let num = 39023;
+console.log(num);
+
+let num1 = 123;
+let num2 = 456;
+let num3 = 3278;
+console.log(num1, num2, num3);
+
+
+let azz = '6575';
+let aj = lol; //здесь ошибочка(
+console.log(azz, aj);
+
+
+// 20
+
+const PI = 3.14;
+const dii = 5;
+const ll = PI * dii;
+console.log(`Ответ длина окружности ${ll} cm`);
+
+
+// 21
+
+/*
+let a = '5' + '2';
+alert(a); 7
+
+let a = '5' + 2;
+alert(a); 52
+
+let a = 5 + '2';
+alert(a); 52
+
+let a = 5 + 2;
+alert(a); 7
+
+let a = '5' * '2';
+alert(a); 10
+
+let a = '5' - '2';
+alert(a); 3
+
+let a = '5' / '2';
+alert(a); 2,5
+
+let a = '5' % '2';
+alert(a); 1
+
+let a = '5s' * '2';
+alert(a); 5s2
+
+let a = '5s' + '2';
+alert(a); 5s2
+
+let a = (-'5') + (-'2');
+alert(a); -7
+
+let a = '5' * 1 + '2' * 1;
+alert(a); 7
+
+let a = '5' * '1' + '2' * '1';
+alert(a); 7
+
+let a = '' + 3 + 1;
+alert(a); 'пробел'4
+
+
+
+*/
+
+
+// 22 
+
+
+// 23
+
+
+
+
+
 
  
 
