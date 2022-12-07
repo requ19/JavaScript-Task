@@ -259,18 +259,161 @@ alert(a); 7
 let a = '' + 3 + 1;
 alert(a); 'пробел'4
 
-
-
 */
 
 
 // 22 
 
+let abba = '10';
+let baab = '20';
 
+console.log(Number(abba) + Number(baab));
+
+/*
+alert( Number('2') + Number('3') ); 5
+
+alert( 2 + Number('3') ); 5
+
+alert( '2' + Number('3') ); ошибка
+
+let a = +'2';
+let b = +'3';
+alert(a + b); // выведет 5
+
+*/
 // 23
 
+let int = parseInt('5px');
+let int2 = parseInt('6px');
+console.log(int + int2);
+
+let float = parseFloat('5.5px');
+let float2 = parseFloat('6.25px');
+console.log(float + float2);
+
+/* АЛЬТЕРНАТИВА
+let float = parseFloat('5.5px');
+let float2 = parseFloat('6.25px');
+console.log(float + float2 + 'px');
+*/
 
 
+// 24
+let nnn = 65;
+let mmm = 76;
+console.log(String(nnn) + String(mmm));
+
+let xes = 100;
+let y = String(xes);
+console.log(y.length);
+
+let xy = 1303;
+let yx = 544;
+console.log(String(yx).length + String(xy).length);
+/**
+let xy = 1303;
+let yx = 544;
+console.log(yx + xy);
+ */
+
+// 25
+
+alert(true + 3); // ответ 4
+
+alert(true + true);//2
+
+alert(true - true); //0
+
+alert(true + false);// 1
+
+alert('1' + true); //1true
+
+alert( String(true) + 1 ); // true1
+
+alert( String(true) + Number(true) ); // true1
+
+// 26
+
+/*
+
+let test = Boolean(3);
+alert(test); true
+
+let test = Boolean(0);
+alert(test); false
+
+let test = Boolean(-1);
+alert(test); true
+
+let test = Boolean(-0);
+alert(test); false
+
+let test = Boolean(+0);
+alert(test); false
+
+let test = Boolean('abc');
+alert(test); true
+
+let test = Boolean('');
+alert(test); false
+
+let test = Boolean('0');
+alert(test); true
+
+let test = Boolean(true);
+alert(test); true
+
+let test = Boolean(false);
+alert(test); false
+
+let test = Boolean('true');
+alert(test); true
+
+let test = Boolean('false');
+alert(test); true
+
+let test = Boolean(null);
+alert(test) false
+
+let test = Boolean('null');
+alert(test); true
+
+let test = Boolean(undefined);
+alert(test); false
+
+let test = Boolean('undefined');
+alert(test); true
+
+let test = Boolean(NaN);
+alert(test);false
+
+let test = Boolean('NaN');
+alert(test);true
+
+let test = Boolean(3 * 'abc');
+alert(test); false
+
+let test = Boolean(Infinity);
+alert(test); true
+
+let test = Boolean(1 / 0);
+alert(test); true
+
+ */
+
+// 27
+let arr = 'abcde';
+console.log(arr[0], arr[2], arr[4]);
+
+
+let arr2 = 'abcde';
+console.log(arr2[4], arr2[3], arr2[2], arr2[1], arr2[0]);
+
+let str9 = 'abcde';
+let num9 = 2;
+console.log(str9[num9]);
+
+// 28
 
 
 
