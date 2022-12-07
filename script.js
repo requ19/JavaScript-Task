@@ -96,7 +96,43 @@ let negaA = -100;
 console.log(negaA);
 
 let negaB = -500;
-console.log(-negaB)
+console.log(-negaB);
+
+// N12
+let per = 13;
+let perb = 5;
+console.log(per % perb);
+
+// 13
+let pop = 2**10;
+console.log(pop);
+
+//Не запуская код, определите, что выведется на экран:
+
+/*
+let a = 3 * 2 ** 3;
+alert(a); ответ 15  
+
+let a = (3 * 2) ** 3;
+alert(a); ответ 15
+
+let a = 3 * 2 ** (3 + 1);
+alert(a); ответ 625
+
+let a = 2 ** 3 * 3;
+alert(a); 64
+
+let a = 3 * 2 ** 3 * 3;
+alert(a);
+*/
+
+// 14
+
+const name = 'Requ';
+console.log(`Меня зовут ${name} я аватар, и когда мир нуждался во мне я пропал`);
+
+
+ 
 
 
 
