@@ -415,9 +415,351 @@ console.log(str9[num9]);
 
 // 28
 
-
+let str3 = 'abcde';
+let last = str3.length - 1;
+console.log(str3[last]);
 
  
+//30 
+
+/*
+let num = 47;
+num += 7;
+num -= 18;
+num *= 10;
+num /= 15;
+console.log(num);
+*/
+
+//31
+ /*
+ let num = 10;
+num++;
+num++;
+num--;
+alert(num);
+
+
+let num = 3;
+alert(++num); 4
+
+
+let num = 3;
+console.log(num++); 3
+
+let num = 3;
+alert(--num);2
+
+let num = 3;
+alert(num--);3
+
+let num1 = 3;
+let num2 = ++num1;
+alert(num1); 4
+alert(num2);4
+
+
+let num1 = 3;
+let num2 = num1++;
+alert(num1);4
+alert(num2);3
+ 
+let num1 = 3;
+let num2 = --num1;
+alert(num1);2
+alert(num2);2
+*/
+
+// 36
+
+/**
+ alert( 24 * 60 * 60); 86400
+
+ alert( 24 * 30 * 60 * 60); 2592000
+
+  alert( 24 * 365 * 60 * 60); 31536000
+
+  alert(60 * 24); 1440
+
+  alert(60 * 24 * 365);525600
+
+
+  // 37
+  let r = 15
+  let s = r / 6.28;  //(6.28 = 2pi)
+  console.log(s);
+
+
+ */
+
+
+
+  // 38 
+/*
+const arr = [1, 5, 6.6, 7];
+console.log(arr);
+alert(arr)
+
+
+const arr = ['NoName', 'Rewuz', 'Glazar';
+console.log(arr);
+alert(arr)
+*/
+
+// 39 
+
+/*
+
+const arr = [1, 2, 3];
+console.log(arr);
+
+const arr = [1, 2, 3];
+console.log(arr[0]);
+console.log(arr[1]);
+console.log(arr[2]);
+
+
+const arr = [1, 2, 3]; 
+console.log(arr[0] + arr[1] + arr[2]);
+
+
+let arr = ['a', 'b', 'c', 'd'];
+
+console.log(arr);
+
+*/
+
+
+
+
+
+// 40
+
+/*
+
+
+let arr = ['a', 'b', 'c', 'd'];
+
+console.log(arr.length);
+
+
+let arr = [1, 2, 3];
+console.log(arr[2]);
+
+*/
+
+// 41
+
+/*
+
+let arr = [1, 2, 3];
+arr[0] = 'a';
+arr[1] = '-b';
+arr[2] = '-c';
+console.log(arr);
+
+
+let arr = ['a', 'b', 'c', 'd'];
+arr[0] += 3
+arr[1] += 3
+arr[2] += 3
+arr[3] += 3
+console.log(arr)
+
+let arr = [1, 2, 3];
+arr[0]++
+arr[1]++
+arr[2]++
+console.log(arr);
+
+
+*/
+
+
+
+// 42
+
+/*
+
+let arr = [];
+arr[0] = 1;
+и т д.
+
+
+
+let arr = [1, 2, 3];
+arr[3] = 4;
+arr[4] = 5;
+
+
+
+
+
+*/
+
+
+
+// 43 
+
+/*
+
+Узнайте длину следующего массива:
+
+let arr = [];
+
+arr[3] = 'a';
+arr[8] = 'b'; длина 9
+
+*/
+
+
+
+// 44
+
+/*
+
+let arr = [];
+arr.push(1);
+arr.push(2);
+arr.push(3);
+console.log(arr);
+
+
+let arr = [1, 2, 3];
+arr.push(4)
+arr.push(5)
+console.log(arr)
+*/
+
+
+
+// 45
+
+/*
+
+let arr = ['a', 'b', 'c'];
+let key = 1
+console.log(arr[key])
+
+
+let arr = [1, 2, 3, 4, 5];
+let key1 = 1;
+let key2 = 2;
+console.log(arr[key1] + arr[key2]);
+
+*/
+
+
+// 46
+
+/*
+
+
+let arr = [1, 2, 3, 4, 5];
+delete arr[1];
+console.log(arr)
+
+let arr = ['a', 'b', 'c', 'd', 'e'];
+delete arr[1];
+delete arr[3];
+
+console.log(arr.length); 5
+
+
+*/
+
+
+// 47
+
+/*
+
+
+
+*/
+
+
+// 47
+
+/*
+
+*/
+
+
+
+// 47
+
+/*
+
+*/
+
+
+
+// 47
+
+/*
+
+*/
+
+
+
+
+// 47
+
+/*
+
+*/
+
+
+
+
+// 47
+
+/*
+
+*/
+
+
+
+
+// 47
+
+/*
+
+*/
+
+
+// 47
+
+/*
+
+*/
+
+
+
+
+// 47
+
+/*
+
+*/
+
+
+
+// 47
+
+/*
+
+*/
+
+
+
+
+// 47
+
+/*
+
+*/
+
 
 
 
