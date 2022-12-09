@@ -673,12 +673,236 @@ console.log(arr.length); 5
 
 /*
 
+let arr = [1, 2, 3, 4, 5];
+console.log(arr[arr.length]);  undefiend
+
+let arr = [1, 2, 3, 4, 5];
+console.log(arr[1] + arr[2] + arr[3] + arr[4] + arr[5]); NaN
+
+let arr = {1, 2, 3, 4, 5};
+console.log(arr.length]); error
+
+
+let arr = [1, 2, 3, 4, 5];
+console.log(arr.lenght); ошибка в функции leng"ht"
+
+*/
+
+
+// 48
+
+/*
+
+const info = {
+    o: 'Sunday',
+    t: 'Monday',
+    th: 'Tuesday',
+    f: 'Wednesday',
+    fi: 'Thursday',
+    s: 'Friday',
+    se: 'Saturday',
+}
+
+console.log(info);
+
+*/
+
+
+
+// 49
+
+/*
+
+const month = {
+    1: 'December',
+    2: 'Junuary',
+    3: 'February',
+    4: 'March',
+    5: 'April',
+    6: 'May',
+    7: 'June',
+    8: 'July',
+    9: 'August',
+    10: 'September',
+    11: 'October',
+    12: 'November'
+}
+
+console.log(month)
 
 
 */
 
 
-// 47
+
+// 50 
+
+/*
+
+let user = {
+    'name': 'OneRuqu',
+    'surname': 'BigBaby',
+    'patronymic': 'Tape'
+}
+console.log(user);
+
+*/
+
+
+
+
+// 51
+
+/*
+
+const date = {
+    year: 2022,
+    month: 12,
+    day: 365
+}
+console.log(date.year)
+
+*/
+
+
+
+
+// 52
+
+/*
+
+let obj = {
+	'1a': 1,  //обяз
+	'b2': 2,   //не обяз
+	'с-с': 3, //обяз
+	'd 4': 4, //обяз
+	'e5': 5 // не обяз
+};
+console.log(obj)
+
+
+
+let obj = {
+	'1a': 1,
+	b2: 2,
+	'с-с': 3,
+	'd 4': 4,
+	e5: 5
+};
+
+console.log(obj[1a]);
+console.log(obj.b2);
+console.log(obj[c-c]);
+console.log(obj[d 4]);
+console.log(obj.e5);
+*/  
+
+
+
+
+// 53
+
+/*
+
+let obj = {x: 1, y: 2, z: 3};
+obj.x *= 2;
+obj.y *= 2;
+obj.z *= 2;
+console.log(obj)
+
+*/
+
+
+// 54
+
+/*
+
+let obj = {}
+obj.name = 'SansLong';
+obj.number = +996557065019;
+obj.addres = 'Chu avenu 96b';
+
+console.log(obj)
+*/
+
+
+
+
+// 55
+
+/*
+
+const obj = {
+    1929: 'тысячи девятьсот двадцать девять',
+    3: 'three',
+    1: 281207,
+    name: 'Mont'
+} 
+console.log(obj)
+
+*/
+
+
+
+// 56
+
+/*
+
+let obj = {x: 1, y: 2, z: 3};
+let newObj = obj
+console.log(newObj);
+
+*/
+
+
+
+
+// 57
+
+/*
+
+
+let obj = {x: 1, y: 2, z: 3};
+console.log(Object.keys(obj).length);
+
+*/
+
+
+
+
+// 58
+
+/*
+
+let obj = {x: 1, y: 2, z: 3};
+let key = 'y';
+console.log(obj[key]);
+
+*/
+
+
+
+
+// 59
+
+/*
+
+let obj = {x: 1, y: 2, z: 3};
+console.log(obj['x']);  // ошибка исправлена
+
+
+let obj = {x: 1, y: 2, z: 3};
+let key = 'x';
+console.log(obj[key]);  // ошибка исправлена
+
+
+*/
+
+
+
+
+
+// 57
 
 /*
 
@@ -686,24 +910,10 @@ console.log(arr.length); 5
 
 
 
-// 47
-
-/*
-
-*/
 
 
 
-// 47
-
-/*
-
-*/
-
-
-
-
-// 47
+// 57
 
 /*
 
@@ -712,7 +922,10 @@ console.log(arr.length); 5
 
 
 
-// 47
+
+
+
+// 57
 
 /*
 
@@ -721,40 +934,13 @@ console.log(arr.length); 5
 
 
 
-// 47
+// 57
 
 /*
 
 */
 
-
-// 47
-
-/*
-
-*/
-
-
-
-
-// 47
-
-/*
-
-*/
-
-
-
-// 47
-
-/*
-
-*/
-
-
-
-
-// 47
+// 57
 
 /*
 
